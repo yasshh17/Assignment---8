@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Style for the main container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+/* Style for country container */
+.country {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff; /* White background */
+}
+
+/* Style for country heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text */
+}
+
+/* Style for paragraphs */
+p {
+    margin: 5px 0;
+    color: #666; /* Medium gray text */
+}
+
+/* Style for subdivision list */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Style for subdivision items */
+li {
+    margin-bottom: 5px;
+    color: #666; /* Medium gray text */
+}
+
+/* Style for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #333; /* Dark gray text */
+}
+
+/* Style for alternating country containers */
+.country:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+}
