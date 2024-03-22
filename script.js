@@ -109,31 +109,31 @@ const GEOGRAPHY_LIST = [
     },
 
     {
-        country: 'United States',
-        capital: 'Washington DC',
-        largestCity: 'New York City',
-        subdivisionName: 'state',
+        country: 'Canada',
+        capital: 'Ottawa',
+        largestCity: 'Toronto',
+        subdivisionName: 'province',
         subdivisions: [
             {
-                "name": "California",
-                "capital": "Sacramento",
-                "largestCity": "Los Angeles",
-                "area": 423970
+                "name": "Ontario",
+                "capital": "Toronto",
+                "largestCity": "Toronto",
+                "area": 1076354
             },
             {
-                "name": "Texas",
-                "capital": "Austin",
-                "largestCity": "Houston",
-                "area": 695662
+                "name": "Quebec",
+                "capital": "Quebec City",
+                "largestCity": "Montreal",
+                "area": 1357671
             },
             {
-                "name": "Florida",
-                "capital": "Tallahassee",
-                "largestCity": "Jacksonville",
-                "area": 170312
-            },
-        ],
-    },
+                "name": "British Columbia",
+                "capital": "Victoria",
+                "largestCity": "Vancouver",
+                "area": 944735
+            }
+        ]
+    }
 ];
 
 
