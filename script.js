@@ -79,6 +79,7 @@ const GEOGRAPHY_LIST = [
             },
         ],
     },
+
     {
         country: 'India',
         capital: 'New Delhi',
@@ -103,9 +104,38 @@ const GEOGRAPHY_LIST = [
                 largestCity: 'Jaipur',
                 area: 342239,
             },
+        
+        ],
+    },
+
+    {
+        country: 'United States',
+        capital: 'Washington DC',
+        largestCity: 'New York City',
+        subdivisionName: 'state',
+        subdivisions: [
+            {
+                "name": "California",
+                "capital": "Sacramento",
+                "largestCity": "Los Angeles",
+                "area": 423970
+            },
+            {
+                "name": "Texas",
+                "capital": "Austin",
+                "largestCity": "Houston",
+                "area": 695662
+            },
+            {
+                "name": "Florida",
+                "capital": "Tallahassee",
+                "largestCity": "Jacksonville",
+                "area": 170312
+            },
         ],
     },
 ];
+
 
 // Wait for the DOM content to be loaded
 document.addEventListener('DOMContentLoaded', function() {
